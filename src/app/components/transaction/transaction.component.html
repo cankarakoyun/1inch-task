@@ -1,0 +1,31 @@
+<div class="mx-auto flex max-w-2xl bg-background">
+  <div class="p-4 flex flex-col w-full text-white text-lg">
+    <div class="my-2 flex flex-col">
+      <span class="text-base mb-2">Token</span>
+      <select class="form-item" [(ngModel)]="selectedToken" (change)="getTokenBalance()" placeholder="Select a token">
+        <option selected disabled [ngValue]="undefined">Select a token</option>
+        <option *ngFor="let token of tokens" [ngValue]="token">{{token.symbol}}</option>
+      </select>
+    </div>
+    <div class="my-2 flex flex-col">
+      <span class="text-base mb-2">Amount</span>
+      <input class="form-item" type="text" [OnlyNumber]="true" [(ngModel)]="amount" (input)="checkAmount($event)" placeholder="Please enter amount" [disabled]="!selectedToken" />
+      <div class="my-2 text-right flex justify-between" *ngIf="selectedToken">
+        <p class="error">
+          <span *ngIf="amount > balance">Insufficient balance</span>
+        </p>
+        <p>{{balance | number: '1.4-4'}} {{selectedToken.symbol}}</p>
+      </div>
+      
+    </div>
+    <div class="my-2 flex flex-col">
+      <span class="text-base mb-2">To Address</span>
+      <input class="form-item" [(ngModel)]="address" type="text" placeholder="Please enter address" [disabled]="!amount || amount <= 0" />
+    </div>
+    <div class="flex">
+      <button class="rounded-md w-full bg-blue-600 mt-4 px-3 py-2 font-semibold text-white shadow-sm hover:bg-blue-500" (click)="transfer()">Transfer</button>
+    </div>
+  </div>
+</div>
+
+<app-modal [type]="type" [transactionHash]="transactionHash" (clearModal)="close()"></app-modal>
