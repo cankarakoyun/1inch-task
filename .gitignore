@@ -1,42 +1,42 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/174979a0-8563-4054-af4b-3bbef4fe1361/dist
+/174979a0-8563-4054-af4b-3bbef4fe1361/tmp
+/174979a0-8563-4054-af4b-3bbef4fe1361/out-tsc
+/174979a0-8563-4054-af4b-3bbef4fe1361/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+/174979a0-8563-4054-af4b-3bbef4fe1361/node_modules
+/174979a0-8563-4054-af4b-3bbef4fe1361/npm-debug.log
+/174979a0-8563-4054-af4b-3bbef4fe1361/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/174979a0-8563-4054-af4b-3bbef4fe1361/.idea/
+/174979a0-8563-4054-af4b-3bbef4fe1361/.project
+/174979a0-8563-4054-af4b-3bbef4fe1361/.classpath
+/174979a0-8563-4054-af4b-3bbef4fe1361/.c9/
+/174979a0-8563-4054-af4b-3bbef4fe1361/*.launch
+/174979a0-8563-4054-af4b-3bbef4fe1361/.settings/
+/174979a0-8563-4054-af4b-3bbef4fe1361/*.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+/174979a0-8563-4054-af4b-3bbef4fe1361/.vscode/*
+/174979a0-8563-4054-af4b-3bbef4fe1361/!.vscode/settings.json
+/174979a0-8563-4054-af4b-3bbef4fe1361/!.vscode/tasks.json
+/174979a0-8563-4054-af4b-3bbef4fe1361/!.vscode/launch.json
+/174979a0-8563-4054-af4b-3bbef4fe1361/!.vscode/extensions.json
+/174979a0-8563-4054-af4b-3bbef4fe1361/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+/174979a0-8563-4054-af4b-3bbef4fe1361/.angular/cache
+/174979a0-8563-4054-af4b-3bbef4fe1361/.sass-cache/
+/174979a0-8563-4054-af4b-3bbef4fe1361/connect.lock
+/174979a0-8563-4054-af4b-3bbef4fe1361/coverage
+/174979a0-8563-4054-af4b-3bbef4fe1361/libpeerconnection.log
+/174979a0-8563-4054-af4b-3bbef4fe1361/testem.log
+/174979a0-8563-4054-af4b-3bbef4fe1361/typings
 
 # System files
-.DS_Store
-Thumbs.db
+/174979a0-8563-4054-af4b-3bbef4fe1361/.DS_Store
+/174979a0-8563-4054-af4b-3bbef4fe1361/Thumbs.db
